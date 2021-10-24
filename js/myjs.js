@@ -19,11 +19,11 @@ $(document).ready(function () {
   setTimeout(function () {
     firstQuestion();
     $(".spinner").fadeOut();
-    $("#preloader").delay(350).fadeOut("slow");
-    $("body").delay(350).css({
+    $("#preloader").delay(200).fadeOut("slow");
+    $("body").delay(200).css({
       overflow: "visible",
     });
-  }, 600);
+  }, 200);
 
   $("#text3").html(textConfig.text3);
   $("#text4").html(textConfig.text4);
